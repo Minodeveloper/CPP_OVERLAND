@@ -1,3 +1,4 @@
+//program to convert celcius to fahrenheit
 #include <iostream>
 
 using namespace std;
@@ -13,7 +14,6 @@ int main()
 
 	cout << endl;
 	cout << "CELCIUS " << celcius << " " << "FAHRENHEIT " << fahrenheit << endl;
-
 
 	return 0;
 }
