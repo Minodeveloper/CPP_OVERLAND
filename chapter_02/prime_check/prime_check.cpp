@@ -14,13 +14,24 @@ int main()
     cout << "ENTER A NUMBER :";
     cin >> number;
 
-    for (size_t i = 2; i <= sqrt(number); i++)
+ /*   for (size_t i = 2; i <= sqrt(number); i++)
     {
         if (number % i == 0) 
         {
             prime = false;
             break;
         }
+    }*/
+
+    int counter = 2;
+    while (counter <= sqrt(number))
+    {
+        if (number % counter == 0)
+        {
+            prime = false;
+            break;
+        }
+        counter++;
     }
 
     if (prime)
