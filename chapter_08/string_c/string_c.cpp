@@ -26,6 +26,6 @@ int main()
 
 
     cout << endl;
-    cout << address << endl;
+    cout << address << endl << strlen(address) << " characters" << endl;
 }
 
